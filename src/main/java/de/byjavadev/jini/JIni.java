@@ -20,10 +20,21 @@ public class JIni
     @Getter
     private final Set<IniSection> sections = new LinkedHashSet<>();
 
+    /**
+     * Creates a new instance of a jINI parser on a file
+     * @param file the file you would like to parse
+     * @throws FileNotFoundException if the file was not found
+     */
+
     public JIni(final File file) throws FileNotFoundException
     {
         this(new FileInputStream(file));
     }
+
+    /**
+     * Creates a new instance of a jINI parser on any input stream
+     * @param inputStream the input stream
+     */
 
     public JIni(final InputStream inputStream)
     {

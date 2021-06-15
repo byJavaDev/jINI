@@ -6,6 +6,10 @@ import lombok.ToString;
 
 import java.io.File;
 
+/**
+ * Represents a key-value entry
+ */
+
 @Getter
 @ToString
 @RequiredArgsConstructor

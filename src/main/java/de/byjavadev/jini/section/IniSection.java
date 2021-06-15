@@ -7,6 +7,10 @@ import lombok.ToString;
 
 import java.util.Set;
 
+/**
+ * Represents a configuration section of the .ini file
+ */
+
 @Getter
 @ToString
 @RequiredArgsConstructor
